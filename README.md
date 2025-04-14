@@ -1,40 +1,74 @@
-# 🛠️ Toolbox Admin - Windows
+<h1 align="center">🛠️ Toolbox Admin - Windows</h1>
 
-Bienvenue dans **Toolbox Admin**, un script batch interactif et complet pensé pour les administrateurs système Windows.  
-Il centralise les principales opérations de maintenance, de gestion réseau, de configuration système et d’automatisation de tâches répétitives.
+<p align="center">
+  Script Batch interactif pour les administrateurs systèmes sous Windows.<br>
+  Gestion, configuration, diagnostic, maintenance — tout en un.
+</p>
 
----
-
-## ⚙️ Fonctionnalités principales
-
-### 👤 Gestion des utilisateurs et groupes
-- Création / suppression d’utilisateurs
-- Création / suppression de groupes
-- Ajout / retrait d’un utilisateur à un groupe
-- Désactivation de l’expiration des mots de passe
-
-### 🌐 Configuration réseau
-- IP statique / DHCP
-- Gestion des serveurs DNS
-- Affichage des connexions réseau, test Ping/DNS
-- Activation/désactivation du Wi-Fi
-
-### 📁 Partage et connectivité
-- Création de partage réseau accessible à tous
-- Test de connectivité Internet
-
-### 💾 Sauvegarde automatisée
-- Backup d’un dossier avec date automatique
-- Droits d’accès ajustés après copie
-
-### 🧼 Entretien complet du PC
-- `SFC`, `DISM`, `chkdsk`, `cleanmgr`, `flushdns`
-- Réinitialisation IP/Winsock
-- Analyse SMART du disque dur
-- Liste des processus, erreurs système récentes
-- Réparation de démarrage, reset Windows Update, etc.
+<p align="center">
+  <img src="https://img.shields.io/badge/windows-10%2F11-blue?logo=windows" alt="Windows">
+  <img src="https://img.shields.io/badge/powershell-compatible-lightgrey?logo=powershell" alt="PowerShell Compatible">
+  <img src="https://img.shields.io/github/license/ton-utilisateur/toolbox-admin-windows" alt="License">
+  <img src="https://img.shields.io/badge/status-maintained-brightgreen" alt="Maintained">
+</p>
 
 ---
 
-## 📷 Aperçu
+## 📚 Sommaire
 
+- [🎯 Objectif](#-objectif)
+- [🧰 Fonctionnalités](#-fonctionnalités)
+- [🖥️ Aperçu visuel](#️-aperçu-visuel)
+- [🚀 Installation & utilisation](#-installation--utilisation)
+- [🗂️ Structure du projet](#️-structure-du-projet)
+- [📄 Licence](#-licence)
+- [📬 Contact](#-contact)
+
+---
+
+## 🎯 Objectif
+
+**Toolbox Admin** est un utilitaire batch tout-en-un conçu pour les admins système.  
+Il centralise les tâches d’administration classiques (réseau, utilisateurs, maintenance) dans une interface console intuitive, sans dépendance externe.
+
+---
+
+## 🧰 Fonctionnalités
+
+### 👥 Gestion utilisateurs & groupes
+- Ajouter / supprimer des utilisateurs et groupes locaux
+- Gérer les appartenances aux groupes
+- Désactiver l’expiration des mots de passe
+
+### 🌐 Outils réseau
+- Affecter une IP statique ou activer DHCP
+- Configurer ou réinitialiser les DNS
+- Activer/désactiver le Wi-Fi
+- Voir connexions réseau, tester connectivité (ping, DNS)
+
+### 💾 Sauvegarde de dossiers
+- Sauvegarde manuelle ou en ligne de commande
+- Nommage automatique par date
+- Attribution des droits d’accès
+
+### 🧼 Maintenance système
+- Outils SFC, DISM, chkdsk
+- Nettoyage disque (`cleanmgr`)
+- Réinitialisation IP/Winsock, Windows Update
+- Journalisation et inspection système (erreurs, services, disques)
+
+---
+
+## 🖥️ Aperçu visuel
+
+```text
+╔════════════════════════════════════════════════════╗
+║                      TOOLBOX                       ║
+╚════════════════════════════════════════════════════╝
+
+  [1] Gestion des utilisateurs et groupes
+  [2] Configuration réseau
+  [3] Divers (partage, connectivité)
+  [4] Backup d'un dossier
+  [5] Entretien du PC
+  [0] Quitter
