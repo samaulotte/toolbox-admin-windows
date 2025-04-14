@@ -38,4 +38,3 @@ Il centralise les principales opérations de maintenance, de gestion réseau, de
 
 ## 📷 Aperçu
 
-Menu principal du script :
